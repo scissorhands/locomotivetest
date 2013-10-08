@@ -1,0 +1,4 @@
+name: SWEDU
+locales: [en]
+#subdomain: swedu-staging
+#domains: [swedu-staging.herokuapp.com]

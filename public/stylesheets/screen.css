@@ -1,0 +1,1136 @@
+@import url("http://fast.fonts.net/lt/1.css?apiType=css&c=59d9a016-7c97-4fba-841b-99f80ee6699e&fontids=731069,731072,731087,731090,731075,731078,731063,731066");
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 17, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0; 
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 39, ../sass/screen.scss */
+.logo-sw {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* line 45, ../sass/screen.scss */
+a {
+  color: white;
+}
+/* line 47, ../sass/screen.scss */
+a:hover {
+  color: white;
+}
+
+/* line 52, ../sass/screen.scss */
+body {
+  font-family: 'AvantGardeGothicITCW01B 731069';
+}
+
+/* line 56, ../sass/screen.scss */
+[class*="column"] + [class*="column"]:last-child {
+  float: left;
+}
+
+/* line 69, ../sass/screen.scss */
+.facebook {
+  height: 16px;
+  width: 9px;
+  background-image: url('../images/sprites/icon-s7a09e31e51.png');
+  background-position: 0 -113px;
+  background-repeat: no-repeat;
+  margin: 7px auto;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  /* line 69, ../sass/screen.scss */
+  .facebook {
+    background-image: url('../images/sprites-2x/icon-s7b18fb16c5.png');
+    background-position: 0 -106.5px;
+    -webkit-background-size: 27px auto;
+    -moz-background-size: 27px auto;
+    -o-background-size: 27px auto;
+    background-size: 27px auto;
+  }
+}
+
+/* line 74, ../sass/screen.scss */
+.twitter {
+  height: 12px;
+  width: 14px;
+  background-image: url('../images/sprites/icon-s7a09e31e51.png');
+  background-position: 0 -68px;
+  background-repeat: no-repeat;
+  margin: 10px auto;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  /* line 74, ../sass/screen.scss */
+  .twitter {
+    background-image: url('../images/sprites-2x/icon-s7b18fb16c5.png');
+    background-position: 0 -65px;
+    -webkit-background-size: 27px auto;
+    -moz-background-size: 27px auto;
+    -o-background-size: 27px auto;
+    background-size: 27px auto;
+  }
+}
+
+/* line 79, ../sass/screen.scss */
+.google-plus {
+  height: 15px;
+  width: 16px;
+  background-image: url('../images/sprites/icon-s7a09e31e51.png');
+  background-position: 0 -51px;
+  background-repeat: no-repeat;
+  margin: 8px auto;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  /* line 79, ../sass/screen.scss */
+  .google-plus {
+    background-image: url('../images/sprites-2x/icon-s7b18fb16c5.png');
+    background-position: 0 -49px;
+    -webkit-background-size: 27px auto;
+    -moz-background-size: 27px auto;
+    -o-background-size: 27px auto;
+    background-size: 27px auto;
+  }
+}
+
+/* line 84, ../sass/screen.scss */
+.facebook-big {
+  height: 29px;
+  width: 18px;
+  background-image: url('../images/sprites/icon-s7a09e31e51.png');
+  background-position: 0 -82px;
+  background-repeat: no-repeat;
+  margin: 14px auto;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  /* line 84, ../sass/screen.scss */
+  .facebook-big {
+    background-image: url('../images/sprites-2x/icon-s7b18fb16c5.png');
+    background-position: 0 -77px;
+    -webkit-background-size: 27px auto;
+    -moz-background-size: 27px auto;
+    -o-background-size: 27px auto;
+    background-size: 27px auto;
+  }
+}
+
+/* line 89, ../sass/screen.scss */
+.twitter-big {
+  height: 20px;
+  width: 25px;
+  background-image: url('../images/sprites/icon-s7a09e31e51.png');
+  background-position: 0 -29px;
+  background-repeat: no-repeat;
+  margin: 18px auto;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  /* line 89, ../sass/screen.scss */
+  .twitter-big {
+    background-image: url('../images/sprites-2x/icon-s7b18fb16c5.png');
+    background-position: 0 -28px;
+    -webkit-background-size: 27px auto;
+    -moz-background-size: 27px auto;
+    -o-background-size: 27px auto;
+    background-size: 27px auto;
+  }
+}
+
+/* line 94, ../sass/screen.scss */
+.google-plus-big {
+  height: 27px;
+  width: 27px;
+  background-image: url('../images/sprites/icon-s7a09e31e51.png');
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  margin: 16px auto;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  /* line 94, ../sass/screen.scss */
+  .google-plus-big {
+    background-image: url('../images/sprites-2x/icon-s7b18fb16c5.png');
+    background-position: 0 0;
+    -webkit-background-size: 27px auto;
+    -moz-background-size: 27px auto;
+    -o-background-size: 27px auto;
+    background-size: 27px auto;
+  }
+}
+
+/* line 99, ../sass/screen.scss */
+.header {
+  background-color: #191f22;
+  height: 100px;
+}
+/* line 154, ../sass/_mixins.scss */
+.header {
+  *zoom: 1;
+}
+/* line 158, ../sass/_mixins.scss */
+.header:before, .header:after {
+  content: "";
+  display: table;
+}
+/* line 162, ../sass/_mixins.scss */
+.header:after {
+  clear: both;
+}
+
+/* line 105, ../sass/screen.scss */
+#logo-container, #social-container, #menu-container {
+  float: left;
+}
+
+/* line 109, ../sass/screen.scss */
+#logo-container {
+  width: 20%;
+}
+
+/* line 114, ../sass/screen.scss */
+#social-container {
+  width: 20%;
+  height: 100px;
+  position: relative;
+}
+
+/* line 121, ../sass/screen.scss */
+#menu-container {
+  width: 60%;
+  height: 100px;
+  position: relative;
+}
+
+/* line 129, ../sass/screen.scss */
+.logo-link {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  margin: 19px 0 0 30px;
+}
+
+/* line 134, ../sass/screen.scss */
+.logo-sw {
+  display: block;
+}
+
+/* line 139, ../sass/screen.scss */
+#menu {
+  float: right;
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  margin: auto;
+  height: 15px;
+  line-height: 15px;
+  left: inherit;
+}
+/* line 142, ../sass/screen.scss */
+#menu li a {
+  color: white;
+  font-size: 0.875em;
+  font-family: 'AvantGardeGothicITCW01D 731075';
+  letter-spacing: 1px;
+}
+
+/* line 155, ../sass/screen.scss */
+#menu-mobile {
+  padding: 5px;
+  background-color: white;
+  width: 50px;
+  cursor: pointer;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -o-border-radius: 3px;
+  height: 45px;
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  margin: auto;
+}
+/* line 196, ../sass/_mixins.scss */
+#menu-mobile > .lines {
+  width: 90%;
+  background-color: #191f22;
+  height: 5px;
+  margin: 5px auto;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+/* line 163, ../sass/screen.scss */
+#social-network {
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  margin: auto;
+  right: 40px;
+  left: inherit;
+  height: 30px;
+}
+/* line 168, ../sass/screen.scss */
+#social-network li {
+  margin-left: 10px;
+}
+
+/*
+@font-face
+{
+  font-family: AvanteGardeGothicPro;
+  src: url('../../../fonts/AvantGardeGothicPro/ITCAvantGardePro-Bk.otf') format("opentype"),
+       url('../../../fonts/AvantGardeGothicPro/ITCAvantGardePro-BkObl.otf') format("opentype"),
+       url('../../../fonts/AvantGardeGothicPro/ITCAvantGardePro-Bold.otf') format("opentype"),
+       url('../../../fonts/AvantGardeGothicPro/ITCAvantGardePro-BoldObl.otf') format("opentype"),
+       url('../../../fonts/AvantGardeGothicPro/ITCAvantGardePro-Demi.otf') format("opentype"),
+       url('../../../fonts/AvantGardeGothicPro/ITCAvantGardePro-DemiObl.otf') format("opentype"),
+       url('../../../fonts/AvantGardeGothicPro/ITCAvantGardePro-Md.otf') format("opentype"),
+       url('../../../fonts/AvantGardeGothicPro/ITCAvantGardePro-MdObl.otf') format("opentype"),
+       url('../../../fonts/AvantGardeGothicPro/ITCAvantGardePro-XLt.otf') format("opentype"),
+       url('../../../fonts/AvantGardeGothicPro/ITCAvantGardePro-XLtObl.otf') format("opentype"); 
+}
+*/
+/*
+@font-face {
+  font-family: "AvantGardeGothicITCW01B 731069";
+  src: url("../fonts/731069/2a334c60-3e0d-4f43-b0e9-5284ea33961a.eot?#iefix");
+  src: url("../fonts/731069/2a334c60-3e0d-4f43-b0e9-5284ea33961a.eot?#iefix") format("eot"), url("../fonts/731069/c68f0543-0caf-4988-b234-355520476b8c.woff") format("woff"), url("../fonts/731069/2d4f1d98-ddb3-4acc-ae78-c8b1863f780e.ttf") format("truetype"), url("../fonts/731069/80f98a03-905d-49e6-8614-cec7c32ca4f2.svg#80f98a03-905d-49e6-8614-cec7c32ca4f2") format("svg");
+}
+
+@font-face {
+  font-family: "AvantGardeGothicITCW01B 731072";
+  src: url("../fonts/731072/d6c308a1-6908-40bc-b732-0fec02d083ac.eot?#iefix");
+  src: url("../fonts/731072/d6c308a1-6908-40bc-b732-0fec02d083ac.eot?#iefix") format("eot"), url("../fonts/731072/7571e8e6-97a2-48aa-97c1-b8aeeefc5409.woff") format("woff"), url("../fonts/731072/8f1e17ad-3b38-4d51-83f5-4e5469174a77.ttf") format("truetype"), url("../fonts/731072/1ee7d1fd-0f7c-4d70-b970-f4dc602eab62.svg#1ee7d1fd-0f7c-4d70-b970-f4dc602eab62") format("svg");
+}
+
+@font-face {
+  font-family: "AvantGardeGothicITCW01M 731087";
+  src: url("../fonts/731087/5daf8f81-4f5b-4b44-8fd3-91c56d20e799.eot?#iefix");
+  src: url("../fonts/731087/5daf8f81-4f5b-4b44-8fd3-91c56d20e799.eot?#iefix") format("eot"), url("../fonts/731087/43b723ac-a6f2-4d5d-9d72-c50aea85ecee.woff") format("woff"), url("../fonts/731087/9093e944-c2da-4954-953f-ca2eb3a227dd.ttf") format("truetype"), url("../fonts/731087/e3929a31-b148-4180-91be-4b490bdac87d.svg#e3929a31-b148-4180-91be-4b490bdac87d") format("svg");
+}
+
+@font-face {
+  font-family: "AvantGardeGothicITCW01M 731090";
+  src: url("../fonts/731090/e77dac3e-51a1-44bd-8a8c-042137ec2a31.eot?#iefix");
+  src: url("../fonts/731090/e77dac3e-51a1-44bd-8a8c-042137ec2a31.eot?#iefix") format("eot"), url("../fonts/731090/8513e971-f071-42cc-9f20-914ffc672da4.woff") format("woff"), url("../fonts/731090/9cea694b-1cf4-4bed-91e2-34b5e3f3bbfe.ttf") format("truetype"), url("../fonts/731090/14ef78e2-840f-42a0-ade1-5c2aa453ac56.svg#14ef78e2-840f-42a0-ade1-5c2aa453ac56") format("svg");
+}
+
+@font-face {
+  font-family: "AvantGardeGothicITCW01D 731075";
+  src: url("../fonts/731075/b74e5f86-4477-435a-abdf-32d8215f21bc.eot?#iefix");
+  src: url("../fonts/731075/b74e5f86-4477-435a-abdf-32d8215f21bc.eot?#iefix") format("eot"), url("../fonts/731075/c18aee57-7585-4a8b-9a1c-69d226301d73.woff") format("woff"), url("../fonts/731075/44ccbb2b-0fbc-4d95-b1da-0aa73bd26fb0.ttf") format("truetype"), url("../fonts/731075/f2de529c-11d2-43b7-be7c-05c5aaeaf133.svg#f2de529c-11d2-43b7-be7c-05c5aaeaf133") format("svg");
+}
+
+@font-face {
+  font-family: "AvantGardeGothicITCW01D 731078";
+  src: url("../fonts/731078/11458aa4-54c5-4577-b6c7-03209f393c77.eot?#iefix");
+  src: url("../fonts/731078/11458aa4-54c5-4577-b6c7-03209f393c77.eot?#iefix") format("eot"), url("../fonts/731078/4e9994cb-061f-4678-850d-527f1d636f44.woff") format("woff"), url("../fonts/731078/cb81a665-3c91-4f41-a739-dbf62a943154.ttf") format("truetype"), url("../fonts/731078/a662b8b1-1550-4c01-9eec-437f22cab36e.svg#a662b8b1-1550-4c01-9eec-437f22cab36e") format("svg");
+}
+
+@font-face {
+  font-family: "AvantGardeGothicITCW01B 731063";
+  src: url("../fonts/731063/85564178-fd88-4387-9226-0e632723ca24.eot?#iefix");
+  src: url("../fonts/731063/85564178-fd88-4387-9226-0e632723ca24.eot?#iefix") format("eot"), url("../fonts/731063/e9a79553-7093-47c7-8d9c-70dc3619e94b.woff") format("woff"), url("../fonts/731063/7265b8d0-a67c-4a8b-84aa-273d1759270a.ttf") format("truetype"), url("../fonts/731063/75d377f2-28ee-43f8-b231-44f8eba218c4.svg#75d377f2-28ee-43f8-b231-44f8eba218c4") format("svg");
+}
+
+@font-face {
+  font-family: "AvantGardeGothicITCW01B 731066";
+  src: url("../fonts/731066/e19b7bd0-1d20-4e6a-89ab-a1fa1c037ccb.eot?#iefix");
+  src: url("../fonts/731066/e19b7bd0-1d20-4e6a-89ab-a1fa1c037ccb.eot?#iefix") format("eot"), url("../fonts/731066/dc20a858-c78b-4d4e-b595-9f2981f7fb01.woff") format("woff"), url("../fonts/731066/78e9d6a0-3eab-40f1-bd47-94f2496ca5ab.ttf") format("truetype"), url("../fonts/731066/e19a45f4-7180-41a1-9815-c6350e91a172.svg#e19a45f4-7180-41a1-9815-c6350e91a172") format("svg");
+}
+*/
+
+/* line 154, ../sass/_mixins.scss */
+#main-image-content {
+  *zoom: 1;
+}
+/* line 158, ../sass/_mixins.scss */
+#main-image-content:before, #main-image-content:after {
+  content: "";
+  display: table;
+}
+/* line 162, ../sass/_mixins.scss */
+#main-image-content:after {
+  clear: both;
+}
+
+/* line 265, ../sass/screen.scss */
+#main-image {
+  background: url("../images/main-image.jpg") no-repeat center;
+  background-size: cover;
+  height: 540px;
+  position: relative;
+}
+/* line 270, ../sass/screen.scss */
+#main-image:after {
+  content: "";
+  position: absolute;
+  background: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+/* line 283, ../sass/screen.scss */
+#main-image-child {
+  position: absolute;
+  box-shadow: 0 -130px 100px -50px rgba(0, 0, 0, 0.6) inset;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+/* line 293, ../sass/screen.scss */
+#main-title {
+  margin: 145px 0 0;
+  padding: 0 2%;
+  position: relative;
+  z-index: 2;
+  text-align: center;
+}
+/* line 299, ../sass/screen.scss */
+#main-title h1 {
+  font-size: 2.1875em;
+  color: white;
+  font-weight: 900;
+  line-height: 62px;
+  font-family: 'AvantGardeGothicITCW01B 731063';
+}
+
+/* line 308, ../sass/screen.scss */
+.green-button {
+  display: block;
+  background-color: #3dda85;
+  font-size: 1.25em;
+  text-align: center;
+  padding: 20px 0;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -o-border-radius: 3px;
+  font-family: 'AvantGardeGothicITCW01D 731075';
+}
+
+/* line 321, ../sass/screen.scss */
+#contain-buttons {
+  margin: 55px 0 0 0;
+}
+
+/* line 325, ../sass/screen.scss */
+#contain-thumbs {
+  background-color: white;
+  margin: -120px 0 0 0;
+  min-height: 190px;
+  position: relative;
+  z-index: 4;
+  padding: 15px;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+
+/* line 336, ../sass/screen.scss */
+#contain-shadow {
+  height: 95px;
+  width: 100%;
+  position: relative;
+  top: -20px;
+  -webkit-box-shadow: 0px 0px 50px -12px black;
+  -moz-box-shadow: 0px 0px 50px -12px black;
+  box-shadow: 0px 0px 50px -12px black;
+}
+
+/* line 344, ../sass/screen.scss */
+.title-thumbnail {
+  background-color: #252525;
+  padding: 10px 0;
+  font-size: 0.9375em;
+  text-align: center;
+  color: white;
+  font-family: "proxima-nova",sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+/* line 355, ../sass/screen.scss */
+.img-thumbs-container {
+  margin: 0 0 10px;
+}
+/* line 154, ../sass/_mixins.scss */
+.img-thumbs-container {
+  *zoom: 1;
+}
+/* line 158, ../sass/_mixins.scss */
+.img-thumbs-container:before, .img-thumbs-container:after {
+  content: "";
+  display: table;
+}
+/* line 162, ../sass/_mixins.scss */
+.img-thumbs-container:after {
+  clear: both;
+}
+
+/* line 360, ../sass/screen.scss */
+#description-title {
+  font-family: "proxima-nova",sans-serif;
+}
+
+/* line 364, ../sass/screen.scss */
+#description-title, #education-title {
+  text-align: center;
+  margin: 65px 0 30px;
+}
+/* line 367, ../sass/screen.scss */
+#description-title h3, #education-title h3 {
+  font-size: 1.6875em;
+  font-family: 'AvantGardeGothicITCW01B 731063';
+}
+
+/* line 374, ../sass/screen.scss */
+#description-text p {
+  font-size: 0.9375em;
+  line-height: 30px;
+  text-align: center;
+  color: #636363;
+  font-family: "proxima-nova",sans-serif;
+}
+
+/* line 383, ../sass/screen.scss */
+#newsletter {
+  min-height: 110px;
+  background-color: #dadad4;
+  padding: 30px 0;
+  margin: 80px 0 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 392, ../sass/screen.scss */
+.newsletter-form #email-newsletter {
+  height: 45px;
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  border: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #262523;
+  padding: 15px 20px;
+  width: 100%;
+  display: block;
+}
+/* line 404, ../sass/screen.scss */
+.newsletter-form #button-newsletter {
+  background-color: #3dda85;
+  color: white;
+  text-align: center;
+  padding: 14px 0;
+  border: none;
+  width: 100%;
+  display: block;
+  font-size: 0.9375em;
+  font-family: 'AvantGardeGothicITCW01D 731075';
+}
+
+/* line 418, ../sass/screen.scss */
+#newsletter {
+  -webkit-box-shadow: 0 0 20px 0 #dadad4;
+  -moz-box-shadow: 0 0 20px 0 #dadad4;
+  box-shadow: 0 0 20px 0 #dadad4;
+}
+/* line 420, ../sass/screen.scss */
+#newsletter h4 {
+  font-size: 1.125em;
+  margin: 0 0 15px;
+  font-family: 'AvantGardeGothicITCW01B 731063';
+  letter-spacing: 1px;
+}
+/* line 426, ../sass/screen.scss */
+#newsletter p {
+  font-size: 0.875em;
+  font-family: "proxima-nova",sans-serif;
+}
+
+/* line 432, ../sass/screen.scss */
+.img-education {
+  height: 180px;
+  position: relative;
+}
+/* line 435, ../sass/screen.scss */
+.img-education img {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0 auto 20px;
+}
+
+/* line 444, ../sass/screen.scss */
+.title-education {
+  margin: 0 0 15px;
+  text-align: center;
+}
+/* line 447, ../sass/screen.scss */
+.title-education h4 {
+  font-size: 1.5625em;
+  font-weight: 900;
+  color: #262523;
+  font-family: 'AvantGardeGothicITCW01B 731063';
+}
+
+/* line 456, ../sass/screen.scss */
+.text-education p {
+  color: #262523;
+  font-size: 0.9375em;
+  line-height: 25px;
+  text-align: center;
+  font-weight: 400;
+  font-family: "proxima-nova",sans-serif;
+}
+
+/* line 466, ../sass/screen.scss */
+#education-container {
+  margin: 0 0 110px;
+}
+/* line 154, ../sass/_mixins.scss */
+#education-container {
+  *zoom: 1;
+}
+/* line 158, ../sass/_mixins.scss */
+#education-container:before, #education-container:after {
+  content: "";
+  display: table;
+}
+/* line 162, ../sass/_mixins.scss */
+#education-container:after {
+  clear: both;
+}
+
+/* line 471, ../sass/screen.scss */
+#footer-top {
+  background-color: #b6b8b7;
+  height: 30px;
+}
+
+/* line 476, ../sass/screen.scss */
+#footer-bottom {
+  background-color: #1c2326;
+  min-height: 320px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 90px 0 0 0;
+}
+
+/* line 483, ../sass/screen.scss */
+.footer-label {
+  margin: 0 0 65px;
+}
+/* line 485, ../sass/screen.scss */
+.footer-label h5 {
+  color: white;
+  font-size: 1.25em;
+  font-family: 'AvantGardeGothicITCW01D 731075';
+  letter-spacing: 1px;
+}
+
+/* line 494, ../sass/screen.scss */
+.state li {
+  color: white;
+  margin: 0 0 25px;
+  font-size: 0.75em;
+  font-family: 'AvantGardeGothicITCW01D 731075';
+}
+
+/* line 502, ../sass/screen.scss */
+.swedu-link {
+  color: #4ce49b;
+}
+
+/* line 506, ../sass/screen.scss */
+.footer-logos a, .header-logos a {
+  background-color: #2b3b42;
+  border-radius: 100%;
+  text-align: center;
+  display: block;
+}
+/* line 511, ../sass/screen.scss */
+.footer-logos a.green-social, .header-logos a.green-social {
+  background-color: #42ec90;
+}
+
+/* line 516, ../sass/screen.scss */
+.footer-logos {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+}
+/* line 518, ../sass/screen.scss */
+.footer-logos a {
+  height: 55px;
+  width: 55px;
+}
+/* line 154, ../sass/_mixins.scss */
+.footer-logos a {
+  *zoom: 1;
+}
+/* line 158, ../sass/_mixins.scss */
+.footer-logos a:before, .footer-logos a:after {
+  content: "";
+  display: table;
+}
+/* line 162, ../sass/_mixins.scss */
+.footer-logos a:after {
+  clear: both;
+}
+
+/* line 526, ../sass/screen.scss */
+.header-logos {
+  height: 30px;
+}
+/* line 154, ../sass/_mixins.scss */
+.header-logos {
+  *zoom: 1;
+}
+/* line 158, ../sass/_mixins.scss */
+.header-logos:before, .header-logos:after {
+  content: "";
+  display: table;
+}
+/* line 162, ../sass/_mixins.scss */
+.header-logos:after {
+  clear: both;
+}
+/* line 529, ../sass/screen.scss */
+.header-logos a {
+  height: 30px;
+  width: 30px;
+}
+/* line 154, ../sass/_mixins.scss */
+.header-logos a {
+  *zoom: 1;
+}
+/* line 158, ../sass/_mixins.scss */
+.header-logos a:before, .header-logos a:after {
+  content: "";
+  display: table;
+}
+/* line 162, ../sass/_mixins.scss */
+.header-logos a:after {
+  clear: both;
+}
+
+/* line 537, ../sass/screen.scss */
+.footer-container-mini {
+  text-align: center;
+}
+/* line 539, ../sass/screen.scss */
+.footer-container-mini .footer-label-margin {
+  text-align: left;
+  margin: 0 0 0 25px;
+}
+
+/* line 545, ../sass/screen.scss */
+.footer-list {
+  text-align: left;
+}
+
+/* About */
+/* line 551, ../sass/screen.scss */
+.leader-img {
+  text-align: center;
+}
+
+/* line 556, ../sass/screen.scss */
+#mission-title h3, .beliefs-title h3, #impact-title h3 {
+  font-family: 'AvantGardeGothicITCW01B 731063';
+}
+
+/* line 563, ../sass/screen.scss */
+.big-numbers h4 {
+  font-family: 'AvantGardeGothicITCW01B 731063';
+}
+
+/* line 569, ../sass/screen.scss */
+.impact-text p {
+  line-height: 20px;
+  color: #636363;
+  font-family: "proxima-nova",sans-serif;
+  font-size: 0.9375em;
+}
+
+/* line 578, ../sass/screen.scss */
+.leaders-title h3 {
+  font-family: 'AvantGardeGothicITCW01D 731075';
+}
+
+/* line 584, ../sass/screen.scss */
+#beliefs-text {
+  font-family: "proxima-nova",sans-serif;
+  color: #636363;
+  line-height: 30px;
+}
+
+/* line 590, ../sass/screen.scss */
+.leaders-name, .leader-title, .leaders-info {
+  font-family: 'AvantGardeGothicITCW01M 731087';
+}
+
+/* Organize */
+/* line 596, ../sass/screen.scss */
+#involved {
+  margin: 65px 0;
+}
+
+/* line 601, ../sass/screen.scss */
+#organize-title h1 {
+  font-size: 2.1875em;
+  font-family: 'AvantGardeGothicITCW01B 731063';
+}
+
+/* line 607, ../sass/screen.scss */
+#organize-text-intro {
+  margin: 45px 0;
+  font-family: 'AvantGardeGothicITCW01D 731075';
+  font-size: 1.75em;
+  color: #262523;
+  line-height: 1.25em;
+}
+
+/* line 615, ../sass/screen.scss */
+#involved-button {
+  margin: 0;
+}
+
+@media only screen and (max-width: 1024px) {
+  /* line 621, ../sass/screen.scss */
+  #description-title {
+    margin: 0;
+  }
+
+  /* line 625, ../sass/screen.scss */
+  #footer-bottom {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 20px 0 0 0;
+  }
+
+  /* line 630, ../sass/screen.scss */
+  #newsletter {
+    margin: 40px 0 0;
+  }
+
+  /* line 634, ../sass/screen.scss */
+  .separator {
+    margin: 0;
+  }
+
+  /* line 638, ../sass/screen.scss */
+  #mission-title {
+    margin: 40px 0 0;
+    font-size: 1.5625em;
+    line-height: 1.875em;
+  }
+
+  /* line 644, ../sass/screen.scss */
+  #beliefs-title {
+    margin: 42px 0 0;
+  }
+
+  /* line 648, ../sass/screen.scss */
+  .impact-stats {
+    margin: 45px 0;
+  }
+
+  /* line 652, ../sass/screen.scss */
+  .footer-container-mini {
+    margin: 0 0 30px;
+  }
+
+  /* line 656, ../sass/screen.scss */
+  .footer-label {
+    margin: 0 0 40px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  /* line 663, ../sass/screen.scss */
+  #logo-container {
+    width: 20%;
+  }
+
+  /* line 667, ../sass/screen.scss */
+  #menu-container {
+    width: 60%;
+  }
+
+  /* line 671, ../sass/screen.scss */
+  #social-container {
+    width: 20%;
+  }
+
+  /* line 675, ../sass/screen.scss */
+  #social-network {
+    right: 20px;
+  }
+}
+@media (min-width: 640px) and (max-width: 1023px) {
+  /* line 682, ../sass/screen.scss */
+  .footer-logos li {
+    margin-left: 10px;
+  }
+}
+@media (min-width: 640px) and (max-width: 767px) {
+  /* line 691, ../sass/screen.scss */
+  #logo-container {
+    width: 30%;
+  }
+
+  /* line 695, ../sass/screen.scss */
+  #menu-container {
+    width: 30%;
+  }
+
+  /* line 699, ../sass/screen.scss */
+  #social-container {
+    width: 40%;
+  }
+
+  /* line 703, ../sass/screen.scss */
+  .footer-container-mini {
+    margin: 0  0 20px;
+  }
+}
+@media only screen and (max-width: 640px) {
+  /* line 709, ../sass/screen.scss */
+  .green-button {
+    margin: 0 0 20px;
+  }
+
+  /* line 713, ../sass/screen.scss */
+  #main-title {
+    margin: 50px 0 0;
+  }
+
+  /* line 717, ../sass/screen.scss */
+  #description {
+    padding: 0 20px;
+  }
+
+  /* line 722, ../sass/screen.scss */
+  #education-title {
+    margin: 30px 0 0;
+  }
+
+  /* line 726, ../sass/screen.scss */
+  #description-title {
+    margin: 0 0 10px;
+    font-size: 0.875em;
+  }
+
+  /* line 732, ../sass/screen.scss */
+  #newsletter p {
+    margin: 10px 0;
+  }
+
+  /* line 737, ../sass/screen.scss */
+  #education-container {
+    margin: 0 0 50px;
+    padding: 0 20px;
+  }
+
+  /* line 742, ../sass/screen.scss */
+  #logo-container {
+    width: 30%;
+  }
+
+  /* line 746, ../sass/screen.scss */
+  #menu-container {
+    width: 25%;
+  }
+
+  /* line 750, ../sass/screen.scss */
+  #social-container {
+    width: 45%;
+  }
+
+  /* line 754, ../sass/screen.scss */
+  #main-title h1 {
+    font-size: 1.5em;
+    line-height: 40px;
+  }
+
+  /* line 759, ../sass/screen.scss */
+  .logo-link {
+    display: block;
+    margin: 10px auto 0 1px;
+  }
+
+  /* line 765, ../sass/screen.scss */
+  #description-text p {
+    line-height: 20px;
+  }
+
+  /* line 770, ../sass/screen.scss */
+  .header, #logo-container, #menu-container, #social-container {
+    height: 65px;
+  }
+
+  /* line 774, ../sass/screen.scss */
+  .footer-container-mini .footer-label-margin {
+    text-align: center;
+  }
+
+  /* line 778, ../sass/screen.scss */
+  .logo-sw {
+    width: 100px;
+    margin: 0 auto;
+    position: relative;
+    left: 5px;
+  }
+
+  /* line 785, ../sass/screen.scss */
+  #social-network {
+    right: 10px;
+  }
+
+  /* line 789, ../sass/screen.scss */
+  #mission-title {
+    margin: 20px 0 0;
+    font-size: 1.125em;
+    line-height: 1.4375em;
+  }
+
+  /* line 795, ../sass/screen.scss */
+  #beliefs-title {
+    margin: 15px 0 0;
+  }
+
+  /* line 799, ../sass/screen.scss */
+  .impact-stats {
+    margin: 15px 0;
+    padding: 20px 0;
+  }
+
+  /* line 804, ../sass/screen.scss */
+  .big-numbers {
+    padding: 30px 0 0;
+  }
+
+  /* line 808, ../sass/screen.scss */
+  .footer-container-mini {
+    margin: 0 0 15px;
+  }
+
+  /* line 812, ../sass/screen.scss */
+  .footer-label {
+    margin: 0 0 15px;
+  }
+
+  /* line 816, ../sass/screen.scss */
+  #social-network li {
+    margin-left: 5px;
+  }
+
+  /* line 820, ../sass/screen.scss */
+  #mission-button {
+    margin: 15px 0;
+  }
+
+  /* line 824, ../sass/screen.scss */
+  #beliefs-text {
+    line-height: 20px;
+    margin: 15px 0;
+  }
+
+  /* line 830, ../sass/screen.scss */
+  #newsletter h4 {
+    text-align: center;
+  }
+}

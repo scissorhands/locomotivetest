@@ -1,0 +1,15 @@
+development:
+  host:  localhost:8080
+  email: epm@g4all.mx
+  password: fantasy7
+  # api_key: <your api key here>
+staging:
+  host:  swedu-g4.herokuapp.com
+  email: epm@g4all.mx
+  password: swteam2013
+  # api_key: <your api key here>
+production:
+  host:  swedu-g4.herokuapp.com
+  email: epm@g4all.mx
+  password: swteam2013
+  # api_key: <your api key here>

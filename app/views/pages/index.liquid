@@ -1,0 +1,226 @@
+---
+title: Home page
+listed: true
+published: true
+cache_strategy: none
+response_type: text/html
+position: 0
+---
+
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SWEDU</title>
+
+  {{ 'normalize.css' | stylesheet_tag }}
+
+  {{ 'grid-5.css' | stylesheet_tag }}
+
+  {{ 'scissorstyles.css' | stylesheet_tag }}
+
+  {{ 'foundation.css' | stylesheet_tag }}
+
+  {{ 'screen.css' | stylesheet_tag }}
+
+  {{ 'vendor/custom.modernizr.js' | javascript_tag }}
+
+  {{ '../fonts/all' | stylesheet_tag }}
+  
+  {% inline_editor %}
+</head>
+<body>
+  {% include header %}
+
+  {% block main %}
+
+    <section>
+      <div id="main-image-content">
+        <div id="main-image">
+          <div id="main-image-child">
+            <div class="row">
+              <div class="large-12 medium-12 small-12 columns">
+                <div id="main-title">
+                  <h1>Shaping the Future of Education.</h1>
+                  <div id="contain-buttons">
+                    <div class="row">
+                      <div class="large-4 large-offset-2 medium-6 medium-offset-0 small-12 small-offset-0  columns">
+                        <a href="#" class="green-button">
+                          ORGANIZE AN EVENT
+                        </a>
+                      </div>
+                      <div class="large-4 medium-6 small-12 columns">
+                        <a href="#" class="green-button">
+                          ATTEND AN EVENT
+                        </a> 
+                      </div>
+                     </div>
+                  </div>
+                </div> 
+              </div>    
+            </div> 
+          </div> 
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="row">
+        <div class="large-12 large-offset-0 medium-12 medium-offset-0 small-8 small-offset-2 columns">
+          <div id="contain-shadow"></div>
+          <div id="contain-thumbs">
+            <div class="row">
+              <div class="large-4 medium-4 columns">
+                <div class="img-thumbs-container">
+                  <a href="#">
+                    <img src="{{ 'image-1.jpg' | theme_image_url }}" alt="" />
+                    <div class="title-thumbnail">
+                      Watch SWEDU Event Trailer
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="img-thumbs-container">
+                <div class="large-4 medium-4  columns">
+                  <div class="img-thumbs-container">
+                    <a href="#">
+                      <img src="{{ 'image-2.jpg' | theme_image_url }}" alt="image2" />
+                      <div class="title-thumbnail">
+                        View SWEDU Event Map
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="large-4 medium-4  columns">
+                  <div class="img-thumbs-container">
+                    <a href="#">
+                      <img src="{{ 'image-3.jpg' | theme_image_url }}" alt="image3" />
+                      <div class="title-thumbnail">
+                        Read More About SWEDU
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="row">
+        <div class="large-10 large-offset-1 medium-10 medium-offset-1 small-12 medium-offset-0">
+          <div id="description">
+            <div id="description-title">
+              <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+            </div>
+            <div id="description-text">
+              {% editable_text welcome_copy %}
+              <p> 
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer hendrerit ultricies nibh, id fringilla neque condimentum vel. 
+              Aenean ac posuere mi. Vestibulum laoreet accumsan tellus sit amet sollicitudin. Duis consequat dolor non gravida vulputate. 
+              Fusce placerat libero et purus luctus semper. In et tellus ut risus pulvinar semper. Praesent cursus pretium nisl vel pretium. 
+              Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi varius nunc nibh, tempus dignissim 
+              erat sagittis sed.
+              </p>
+              {% endeditable_text %}  
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section>
+      <div id="newsletter">
+        <div class="row">   
+          <div class="large-6 medium-6 small-12 columns">
+            <h4>Suscribe to the SWEDU newsletter and digest</h4>
+            <p>Receive important developments and program offerings from Startup Weekend Education</p>
+          </div>
+          <div class="large-6 medium-6 small-12 columns">
+            <div class="row">
+              <form class="newsletter-form">
+                <div class="large-8 medium-6 columns">
+                  <input id="email-newsletter" type="text" name="fname" value="" placeholder="Email Address" />
+                </div>
+                <div class="large-4 medium-6 columns">
+                  <input id="button-newsletter" type="submit" value="Subscribe Now">
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="row">
+        <div class="small-12 large-centered">
+          <div id="education-title">
+            <h3>One Weekend of Incredible Synergy:</h3>
+          </div>
+        </div> 
+
+        <div class="small-12 medium-12 large-centered">
+          <div class="row">
+            <div id="education-container">
+              <div class="large-4 medium-4 small-12 columns">
+                <div class="img-education">
+                  <img src="{{ 'lamp.png' | theme_image_url }}" alt="lamp" />
+                </div>
+                <div class="title-education">
+                  <h4>Friday - Pitch</h4>
+                </div>
+                <div class="text-education">
+                  <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer hendrerit ultricies nibh, id fringilla neque condimentum vel. Aenean ac posuere mi. Vestibulum laoreet accumsan tellus sit amet sollicitudin.
+                  </p>
+                </div>
+              </div>
+              <div class="large-4 medium-4 small-12 columns">
+                <div class="img-education">
+                  <img src="{{ 'wrench.png' | theme_image_url }}" alt="wrench" />
+                </div>
+                <div class="title-education">
+                  <h4>Saturday - Build</h4>
+                </div>
+                <div class="text-education">
+                  <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer hendrerit ultricies nibh, id fringilla neque condimentum vel. Aenean ac posuere mi. Vestibulum laoreet accumsan tellus sit amet sollicitudin.
+                  </p>
+                </div>
+              </div>
+              <div class="large-4 medium-4 small-12 columns">
+                <div class="img-education"> 
+                  <img src="{{ 'misile.png' | theme_image_url }}" alt="misile" />
+                </div>
+                <div class="title-education">
+                  <h4>Sunday - Launch</h4>
+                </div>
+                <div class="text-education">
+                  <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer hendrerit ultricies nibh, id fringilla neque condimentum vel. Aenean ac posuere mi. Vestibulum laoreet accumsan tellus sit amet sollicitudin.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+  {% endblock %}
+
+  {% include footer %}
+  {% include scripts %}
+
+  {% comment %}
+  Pages requiring JS that is only relevant on that page should override
+  this block and include the scripts there
+  {% endcomment %}
+  {% block pagescripts %}
+  {% endblock %}
+</body>
+</html>

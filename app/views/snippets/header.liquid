@@ -1,0 +1,40 @@
+<header class="header">
+		<div id="logo-container">
+			<a href="<?= base_url() ?>" class="logo-link">
+				<img src="{{ 'sw-logo.png' | theme_image_url }}" alt="" />
+		    </a>
+		</div> 
+		<div id="menu-container" class="hide-for-small">
+		    <ul id="menu" class="inline-list">
+		        <li><a href="<?= base_url() ?>home/about">ABOUT</a></li>
+		        <li><a href="<?= base_url() ?>home/organize">ORGANIZE</a></li>
+		        <li><a href="#">ATTEND</a></li>
+		        <li><a href="#">NEWSLETTER</a></li>
+		        <li><a href="#">BLOG</a></li> 
+		    </ul>
+	    </div>
+		<div id="social-container">
+			<div class="header-logos">
+			    <ul id="social-network" class="inline-list">
+			        <li><a href="#">
+			        	<div class="facebook"></div>
+			        </a></li>
+			        <li><a href="#">
+			        	<div class="twitter"></div>
+			        </a></li>
+			        <li><a class="green-social" href="#">
+			        	<div class="google-plus"></div>
+			        </a></li>
+			    </ul>
+			</div>
+		</div>
+		<div id="menu-container" class="show-for-small">
+			<div id="menu-mobile">
+		    	<div class="lines"></div>
+		    	<div class="lines"></div>
+		    	<div class="lines"></div>
+		    </div>
+		</div>
+
+</header>
+
