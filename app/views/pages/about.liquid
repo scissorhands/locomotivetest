@@ -7,9 +7,204 @@ position: 1
 {% extends parent %}
 
 {% block main %}
+<section>
+
+	<div class="row">
+		<div class="large-12">
+			<div id="mission-title">
+				{% editable_text mission_title, rows: 2 %}
+					<h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque facilisis scelerisque dui. </h3>
+				{% endeditable_text %}  
+			</div>
+		</div>
+		<div class="large-4 large-centered medium-6 medium-centered columns">
+			<a href="#" class="green-button" id="mission-button">
+				INLINE BUTTON STYLE
+			</a>
+		</div>
+	</div>
+
+</section>
 
 <div class="row">
-  <h2>About page overrides this block</h2>
+	{% editable_text beliefs, rows: 10 %}
+	<div class="large-12 medium-12 small-12 columns">
+		<div id="beliefs-title">
+			<h3>Subheader style here</h3>
+		</div>
+	</div>
+	<div class="large-12 medium-12 small-12 columns">
+		<div id="beliefs-text">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque facilisis scelerisque dui, quis laoreet 
+				justo porta quis. Sed accumsan ligula eget fringilla scelerisque. Maecenas malesuada massa mi, in ultrices 
+				lacus viverra vel. In enim erat, dapibus aliquam laoreet a, tristique sit amet eros.</p>
+		</div>
+	</div>
+	{% endeditable_text %} 
+</div>
+
+<div class="impact-stats">
+
+	<div class="large-4 large-centered columns">
+		<div id="impact-title">
+			<h3>Impact Stats</h3>
+		</div>
+	</div>
+	<div style="text-align:center;" class="large-12 medium-12 large-centered">
+		<div class="row">
+			<div class="large-4 medium-6 small-12 columns">
+				<div class="big-numbers">
+					<h4>BIG NUMBERS!!!</h4>
+				</div>
+				<div class="impact-text">
+					<P>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque facilisis.</P>
+				</div>
+			</div>
+			<div class="large-4 medium-6 small-12 columns">
+				<div class="big-numbers">
+					<h4>BIG NUMBERS!!!</h4>
+				</div>
+				<div class="impact-text">
+					<P>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque facilisis.</P>
+				</div>
+			</div>
+			<div class="large-4 medium-6 small-12 columns">
+				<div class="big-numbers">
+					<h4>BIG NUMBERS!!!</h4>
+				</div>
+				<div class="impact-text">
+					<P>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque facilisis.</P>
+				</div>
+			</div>
+			<div class="large-4 medium-6 small-12 columns">
+				<div class="big-numbers">
+					<h4>BIG NUMBERS!!!</h4>
+				</div>
+				<div class="impact-text">
+					<P>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque facilisis.</P>
+				</div>
+			</div>
+			<div class="large-4 medium-6 small-12 columns">
+				<div class="big-numbers">
+					<h4>BIG NUMBERS!!!</h4>
+				</div>
+				<div class="impact-text">
+					<P>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque facilisis.</P>
+				</div>
+			</div>
+			<div class="large-4 medium-6 small-12 columns">
+				<div class="big-numbers">
+					<h4>BIG NUMBERS!!!</h4>
+				</div>
+				<div class="impact-text">
+					<P>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque facilisis.</P>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+
+</div>
+
+<div class="row">
+	<div class="large-6 large-centered columns">
+		<div id="leaders-title">
+			<h3>SWEDU Leadership Team</h3>
+		</div>
+	</div>
+
+	<div id="leaders-list">
+		<div class="large-12 large-centered columns">
+			<div class="row">
+				<div class="large-2 medium-4 small-6 columns">
+					
+						<div class="leader-img">
+							<img class="img-centered" src="{{ 'leader1.png' | theme_image_url }}" alt="leader" />
+						</div>
+					
+					<div class="leaders-info">
+						<div class="leaders-name">
+							Rick Ross
+						</div>
+						<div class="leader-title">
+							Title
+						</div>
+						<a class="leader-twitter" href="#">@Glightfoot</a>
+					</div>
+				</div>
+
+				<div class="large-2 medium-4 small-6 columns separator">
+					
+						<div class="leader-img">
+							<img class="img-centered" src="{{ 'leader1.png' | theme_image_url }}" alt="leader" />
+						</div>
+					
+					<div class="leaders-info">
+						<div class="leaders-name">
+							Rick Ross
+						</div>
+						<div class="leader-title">
+							Title
+						</div>
+						<a class="leader-twitter" href="#">@Glightfoot</a>
+					</div>
+				</div>
+
+				<div class="large-2 medium-4 small-6 columns">
+					
+						<div class="leader-img">
+							<img class="img-centered" src="{{ 'leader2.png' | theme_image_url }}" alt="leader" />
+						</div>
+					
+					<div class="leaders-info">
+						<div class="leaders-name">
+							Rick Ross
+						</div>
+						<div class="leader-title">
+							Title
+						</div>
+						<a class="leader-twitter" href="#">@Glightfoot</a>
+					</div>
+				</div>
+
+				<div class="large-2 medium-4 small-6 columns separator">
+					
+						<div class="leader-img">
+							<img class="img-centered" src="{{ 'leader3.png' | theme_image_url }}" alt="leader" />
+						</div>
+					
+					<div class="leaders-info">
+						<div class="leaders-name">
+							Rick Ross
+						</div>
+						<div class="leader-title">
+							Title
+						</div>
+						<a class="leader-twitter" href="#">@Glightfoot</a>
+					</div>
+				</div>
+
+				<div class="large-2 medium-4 small-6 columns">
+					
+						<div class="leader-img">
+							<img class="img-centered" src="{{ 'leader3.png' | theme_image_url }}" alt="leader" />
+						</div>
+					
+					<div class="leaders-info">
+						<div class="leaders-name">
+							Rick Ross
+						</div>
+						<div class="leader-title">
+							Title
+						</div>
+						<a class="leader-twitter" href="#">@Glightfoot</a>
+					</div>
+				</div>
+		
+			</div>
+		</div>
+	</div>
+	
 </div>
 
 {% endblock %}
