@@ -1,0 +1,16 @@
+/* line 1, ../sass/home.scss */
+.header {
+  background-color: #191f22;
+  color: #FFFFFF;
+}
+
+/* line 6, ../sass/home.scss */
+.logo-sw {
+  padding: 25px;
+}
+
+/* line 10, ../sass/home.scss */
+.footer {
+  background-color: #191f22;
+  color: #FFFFFF;
+}

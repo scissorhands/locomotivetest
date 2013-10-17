@@ -1,0 +1,23 @@
+- "Tokyo":
+    description: "Aperiam est dolores omnis dolorem ipsam voluptate. Qui amet et enim autem accusamus. Natus quisquam atque sunt reiciendis quidem recusandae. Alias iste ipsa et exercitationem ex consequatur placeat cupiditate. Quia blanditiis culpa ea neque et vel officiis dolore."
+    event_date: 2013/01/12 # YYYY/MM/DD
+
+- "San Francisco":
+    description: "Tenetur in ut minus odit. Quae itaque nulla maiores. Sed vel ut consequatur sint eius."
+    event_date: 2013/01/12 # YYYY/MM/DD
+
+- "Seatle":
+    description: "Ut repellat facere laudantium soluta rerum aut voluptas. Repudiandae dignissimos dolores architecto eos. Quaerat ex assumenda exercitationem commodi ullam veritatis illum. Amet deserunt veritatis similique aperiam consequatur in."
+    event_date: 2013/01/12 # YYYY/MM/DD
+
+- "Abidjan":
+    description: "Aperiam est dolores omnis dolorem ipsam voluptate. Qui amet et enim autem accusamus. Natus quisquam atque sunt reiciendis quidem recusandae. Alias iste ipsa et exercitationem ex consequatur placeat cupiditate. Quia blanditiis culpa ea neque et vel officiis dolore."
+    event_date: 2013/01/12 # YYYY/MM/DD
+
+- "Los Angeles":
+    description: "Tenetur in ut minus odit. Quae itaque nulla maiores. Sed vel ut consequatur sint eius."
+    event_date: 2013/01/12 # YYYY/MM/DD
+
+- "New York":
+    description: "Ut repellat facere laudantium soluta rerum aut voluptas. Repudiandae dignissimos dolores architecto eos. Quaerat ex assumenda exercitationem commodi ullam veritatis illum. Amet deserunt veritatis similique aperiam consequatur in."
+    event_date: 2013/01/12 # YYYY/MM/DD

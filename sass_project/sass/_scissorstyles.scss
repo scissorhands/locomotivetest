@@ -1,0 +1,120 @@
+#mission-title{
+  font-size: 35px;
+  color: rgb( 38, 37, 35 );
+  text-align: center;
+  margin-top: 80px;
+  line-height: 1.87;
+}
+
+#mission-button{
+	margin-top: 32px;
+}
+
+#beliefs-title{
+	margin-top: 85px;
+	font-size: 27px;
+	/*font-family: "ITC Avant Garde Gothic Pro";*/
+	color: rgb( 38, 37, 35 );
+	font-weight: bold;
+	line-height: 1.296;
+	text-align: center;
+  /*
+  position: absolute;
+  left: 262px;
+  top: 493px;
+  width: 949px;
+  height: 122px;
+  z-index: 45;
+  */
+}
+#beliefs-text{
+	margin-top: 28px;
+	font-size: 15px;
+	font-family: "proxima-nova",sans-serif;
+	color: rgb( 38, 37, 35 );
+	/*font-weight: bold;*/
+	line-height: 1.296;
+	text-align: center;
+}
+
+.impact-stats{
+	background-color: #f3f3f0;
+	margin-top: 105px;
+	padding-top: 68px;
+	padding-bottom: 80px;
+	margin-bottom: 80px;
+	max-width: 100%;
+	-moz-box-shadow: inset 0 0 47px -2px #e2e2df;
+	-webkit-box-shadow: inset 0 0 47px -2px #e2e2df;
+	box-shadow: inset 0 0 47px -2px #e2e2df;
+}
+
+#impact-title{
+	font-size: 27px;
+	color: rgb( 38, 37, 35 );
+	font-weight: bold;
+	line-height: 1.296;
+	text-align: center;
+}
+
+.big-numbers{
+	padding-top: 57px;
+	font-family: "proxima-nova",sans-serif;
+  font-size: 20px;
+  color: rgb( 38, 37, 35 );
+  font-weight: bold;
+  line-height: 1.75;
+  text-align: center;
+}
+
+.impact-text{
+	margin-top: 20px;
+	font-size: 18px;
+	font-family: "proxima-nova",sans-serif;
+	color: rgb( 38, 37, 35 );
+	line-height: 1.296;
+	text-align: center;
+}
+
+#leaders-title{
+	font-size: 28px;
+	color: rgb( 0, 0, 0 );
+	line-height: 0.893;
+	text-align: center;
+	font-weight: bold;
+}
+
+#leaders-list{
+	margin-top: 69px;
+}
+
+.separator{
+	margin-left: 41.66px;
+	margin-right: 41.66px;
+}
+
+.leaders-name{
+	font-size: 18px;
+}
+
+.leader-title{
+	font-size: 15px;
+}
+
+.leaders-info{
+	margin-top: 22px;
+	line-height: 23px;
+	color: rgb( 0, 0, 0 );
+	text-align: center;
+	margin-bottom: 70px;
+	text-align: center;
+}
+/*
+.leaders-twitter{
+	margin-bottom: 35px;
+}
+*/
+a.leader-twitter{
+	color:#3dda85;
+	font-size: 12px;
+}

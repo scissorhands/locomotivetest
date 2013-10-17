@@ -1,0 +1,17 @@
+---
+title: Event template page
+slug: events_content_type_template
+listed: false
+published: true
+cache_strategy: none
+response_type: text/html
+position: 0
+content_type: events
+---
+{% extends 'index' %}
+{% block main %}
+<div class="row">
+	<h1>{{ event.title }}</h1>
+	<p>{{ event.description }}</p>
+</div>
+{% endblock %}
