@@ -1,0 +1,439 @@
+---
+title: Event
+listed: true
+published: true
+cache_strategy: none
+response_type: text/html
+position: 0
+---
+
+{% extends parent %} 
+
+{% block main %}
+	<div class="row">
+		<div class="large-8 medium-12 small-12 columns">
+			<div id="event-title">
+				<h1>Seatle EDU Page Title</h1>
+			</div>
+			<nav>
+				<ul id="submenu" class="hide-for-small ">
+					<li>
+						<a href="#">Anchor link1 </a>
+					</li>
+					<li>
+						<a href="#">Anchor link1 </a>
+					</li>
+					<li>
+						<a href="#">Anchor link1 </a>
+					</li>
+					<li>
+						<a href="#">Anchor link1 </a>
+					</li>
+					<li>
+						<a href="#">Anchor link1 </a>
+					</li>
+					<li>
+						<a href="#">Anchor link1 </a>
+					</li>
+					<li>
+						<a href="#">Anchor link1 </a>
+					</li>
+				</ul>
+				<div class="styled-select-content show-for-small">
+					<div class="styled-select">
+						<div class="styled-select-name">
+							<select class="styled-select-option pointer">
+								<option value="#">Selecciona...</option>
+								<option value="http://www.google.com">x</option>
+    							<option value="http://www.yahoo.com">y</option>
+							</select>
+						</div>
+					</div>
+				 </div>
+			</nav>
+			<div id="main-image-event">
+				<img src="{{ 'main-event.jpg' | theme_image_url }}" alt="main-event" />
+				<h2>Seattle Startup Weekend Education</h2>
+			</div>
+			<div class="container-section">
+				<div class="subtitle-event">
+					<h2>Content w. Subhead Style</h2>
+				</div>
+				<p>
+					If you are building a startup, NEXT can save you thousands of dollars and months of your life. Most startups fail because they lack customers and a profitable business model. The NEXT program helps startup founders build successful startups. Attend NEXT to test and improve your startup idea and to prepare yourself for an accelerator, investor or early-stage launch by
+				</p>
+				<ul class="event-list">
+					<li>Learning from potential customers to validate your business model assumptions</li>
+					<li>Learning tactical hacks on how to get valuable and actionable customer feedback</li>
+					<li>Getting valuable feedback from our kick-ass local mentors</li>
+				</ul>
+				<h6>Additionally, you will gain other crucial startup founder skills and learn about:</h6>
+				<ul class="event-list">
+					<li>Big Markets Big Ideas. How to spot a big idea vs. a small one.</li>
+					<li>Fundability. Bootstrapping, Angels, VCs … understand which is the right one for you!</li>
+					<li>Pitching Your Idea. Raising money, recruiting, or selling product? Your pitch always matters.</li>
+					<li>Go to Market. Avoid burning cash. Do your "homework" first. </li>
+				</ul>
+				<p>
+					The NEXT Program is just 5 weeks long and consists of 3 hour weekly working sessions with other attendees and mentors. Don't spend your time and money building something that no one wants! 
+				</p>
+			</div>
+			<div class="container-section">
+				<div class="subtitle-event">
+					<h2>Schedule/Table Style</h2>
+				</div>
+				<div id="table-schedule">
+					<div class="row">
+						<div class="large-4 large-uncentered medium-4 medium-uncentered small-12 small-centered columns">
+							<div class="day-event">
+								<h3>Friday</h3>
+								<div class="row">
+									<div class="large-3 medium-12 small-5 columns">
+										<div class="hour">
+											6:30
+										</div>
+									</div>
+									<div class="large-9 medium-12 small-7 columns">
+										<div class="activity">
+											Registers Stars
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="large-3 medium-12 small-5 columns">
+										<div class="hour">
+											6:30
+										</div>
+									</div>
+									<div class="large-9 medium-12 small-7 columns">
+										<div class="activity">
+											Dinner and Networking
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="large-3 medium-12 small-5 columns">
+										<div class="hour">
+											6:30
+										</div>
+									</div>
+									<div class="large-9  medium-12 small-7 columns">
+										<div class="activity">
+											Welcome and Speakers
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="large-4 large-uncentered medium-4 medium-uncentered small-12 small-centered columns">
+							<div class="day-event">
+								<h3>Saturday</h3>
+								<div class="row">
+									<div class="large-3 medium-12 small-5 columns">
+										<div class="hour">
+											6:30
+										</div>
+									</div>
+									<div class="large-9 medium-12 small-7 columns">
+										<div class="activity">
+											Registers Stars
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="large-3 medium-12 small-5 columns">
+										<div class="hour">
+											6:30
+										</div>
+									</div>
+									<div class="large-9 medium-12 small-7 columns">
+										<div class="activity">
+											Dinner and Networking
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="large-3 medium-12 small-5 columns">
+										<div class="hour">
+											6:30
+										</div>
+									</div>
+									<div class="large-9 medium-12 small-7 columns">
+										<div class="activity">
+											Welcome and Speakers
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="large-4 large-uncentered medium-4 medium-uncentered small-12 small-centered columns">
+							<div class="day-event">
+								<h3>Sunday</h3>
+								<div class="row">
+									<div class="large-3 medium-12 small-5 columns">
+										<div class="hour">
+											6:30
+										</div>
+									</div>
+									<div class="large-9 medium-12 small-7 columns">
+										<div class="activity">
+											Registers Stars
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="large-3 medium-12 small-5 columns">
+										<div class="hour">
+											6:30
+										</div>
+									</div>
+									<div class="large-9 medium-12 small-7 columns">
+										<div class="activity">
+											Dinner and Networking
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="large-3 medium-12 small-5 columns">
+										<div class="hour">
+											6:30
+										</div>
+									</div>
+									<div class="large-9 medium-12 small-7 columns">
+										<div class="activity">
+											Welcome and Speakers
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container-section">
+				<div class="subtitle-event">
+					<h2>Organizer / Bio Style</h2>
+				</div>
+				<div class="organizer">
+					<div class="row">
+						<div class="large-2 medium-2 small-4 columns">
+							<div class="organizer-img">
+								<img src="{{ 'img-organizer.jpg' | theme_image_url }}" alt="organizer" />
+							</div>
+						</div>
+						<div class="large-10 medium-10 small-8 columns">
+							<div class="organizer-desc">
+								<p class="description">
+									<span>Albin Bajramovic</span> - Has 15 years of experience in IT consulting with fortune 500 companies, and has lead multiple mergers in hospitality, petroleum, and pharmaceutical industries.
+								<p>
+								<p>
+									Contact Albin at <a href="#" class="mail-organizer">atlanta@swnext.co</a>
+								</p>
+							</div>
+
+						</div>
+					</div>
+				</div>
+				<div class="organizer">
+					<div class="row">
+						<div class="large-2 medium-2 small-4 columns">
+							<div class="organizer-img">
+								<img src="{{ 'img-organizer.jpg' | theme_image_url }}" alt="organizer" />
+							</div>
+						</div>
+						<div class="large-10 medium-10 small-8 columns">
+							<div class="organizer-desc">
+								<p class="description">
+									<span>Albin Bajramovic</span> - Has 15 years of experience in IT consulting with fortune 500 companies, and has lead multiple mergers in hospitality, petroleum, and pharmaceutical industries.
+								<p>
+								<p>
+									Contact Albin at <a href="#" class="mail-organizer">atlanta@swnext.co</a>
+								</p>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container-section">
+				<div class="subtitle-event">
+					<h2>Mentor / Coach Style</h2>
+				</div>
+				<div class="row">
+					<div class="large-4 medium-4 columns">
+						<div class="mentor">
+							<img src="{{ 'leader1.png' | theme_image_url }}" alt="leader1" />
+							<div class="mentor-description">
+								<div class="name">Rick Ross</div>
+								<div class="rol">Mentor</div>
+								<div class="twitter-mentor">@Glightfoot</div>
+							</div>
+						</div>
+					</div>
+					<div class="large-4 medium-4 columns">
+						<div class="mentor">
+							<img src="{{ 'leader1.png' | theme_image_url }}" alt="leader1" />
+							<div class="mentor-description">
+								<div class="name">Rick Ross</div>
+								<div class="rol">Mentor</div>
+								<div class="twitter-mentor">@Glightfoot</div>
+							</div> 
+						</div>
+					</div>
+					<div class="large-4 medium-4 columns">
+						<div class="mentor">
+							<img src="{{ 'leader1.png' | theme_image_url }}" alt="leader1" />
+							<div class="mentor-description">
+								<div class="name">Rick Ross</div>
+								<div class="rol">Mentor</div>
+								<div class="twitter-mentor">@Glightfoot</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container-section">
+				<div class="subtitle-event">
+					<h2>Sponsors</h2>
+				</div>
+				<div class="sponsors">
+					<div class="sponsors-range">Platinum</div>
+					<div class="sponsors-img">
+						<div class="row">
+							<div class="large-4 medium-4 columns">
+								<div class="img-sponsors">
+									<img src="{{ 'ezells.jpg' | theme_image_url }}" alt="ezells" />
+								</div>
+							</div>
+							<div class="large-4 medium-4 columns">
+								<div class="img-sponsors">
+									<img src="{{ 'amazon.jpg' | theme_image_url }}" alt="amazon" />
+								</div>
+							</div>
+							<div class="large-4 medium-4 columns">
+								<div class="img-sponsors">
+									<img src="{{ 'microsoft.jpg' | theme_image_url }}" alt="microsoft" />
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="sponsors">
+					<div class="sponsors-range">Gold</div>
+					<div class="sponsors-img">
+						<div class="row">
+							<div class="large-4 medium-4 columns">
+								<div class="img-sponsors">
+									<img src="{{ 'ezells.jpg' | theme_image_url }}" alt="ezells" />
+								</div>
+							</div>
+							<div class="large-4 medium-4 columns">
+								<div class="img-sponsors">
+									<img src="{{ 'amazon.jpg' | theme_image_url }}" alt="amazon" />
+								</div>
+							</div>
+							<div class="large-4 medium-4 columns">
+								<div class="img-sponsors">
+									<img src="{{ 'microsoft.jpg' | theme_image_url }}" alt="microsoft" />
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="sponsors">
+					<div class="sponsors-range">Silver</div>
+					<div class="sponsors-img">
+						<div class="row">
+							<div class="large-4 medium-4 columns">
+								<div class="img-sponsors">
+									<img src="{{ 'ezells.jpg' | theme_image_url }}" alt="ezells" />
+								</div>
+							</div>
+							<div class="large-4 medium-4 columns">
+								<div class="img-sponsors">
+									<img src="{{ 'amazon.jpg' | theme_image_url }}" alt="amazon" />
+								</div>
+							</div>
+							<div class="large-4 medium-4 columns">
+								<div class="img-sponsors">
+									<img src="{{ 'microsoft.jpg' | theme_image_url }}" alt="microsoft" />
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container-section">
+				<div class="subtitle-event">
+					<h2>Event Blog</h2>
+				</div>
+				<div class="blog-entry">
+					<div class="date">
+						09.22.2013
+					</div>
+					<div class="title">
+						Want to win the Seattle EDU pitch?
+					</div>
+					<div class="description">
+						Butcher quis occupy blog dolore bitters, +1 incididunt selfies narwhal Brooklyn. Salvia aliquip Helvetica Schlitz retro, esse Brooklyn aute ad ethnic selvage. Letterpress accusamus occaecat chillwave, non bicycle rights Austin kitsch laborum vegan Vice Intelligentsia plaid. Proident bespoke Tonx pug, irure four loko sustainable polaroid brunch typewriter. 
+					</div>
+					<div class="read-more">
+						<a href="#">Read More</a>
+					</div>
+				</div>
+				<div class="blog-entry">
+					<div class="date">
+						09.22.2013
+					</div>
+					<div class="title">
+						Want to win the Seattle EDU pitch?
+					</div>
+					<div class="description">
+						Butcher quis occupy blog dolore bitters, +1 incididunt selfies narwhal Brooklyn. Salvia aliquip Helvetica Schlitz retro, esse Brooklyn aute ad ethnic selvage. Letterpress accusamus occaecat chillwave, non bicycle rights Austin kitsch laborum vegan Vice Intelligentsia plaid. Proident bespoke Tonx pug, irure four loko sustainable polaroid brunch typewriter. 
+					</div>
+					<div class="read-more">
+						<a href="#">Read More</a>
+					</div> 
+				</div>
+				<div class="blog-entry">
+					<div class="date">
+						09.22.2013
+					</div>
+					<div class="title">
+						Want to win the Seattle EDU pitch?
+					</div>
+					<div class="description">
+						Butcher quis occupy blog dolore bitters, +1 incididunt selfies narwhal Brooklyn. Salvia aliquip Helvetica Schlitz retro, esse Brooklyn aute ad ethnic selvage. Letterpress accusamus occaecat chillwave, non bicycle rights Austin kitsch laborum vegan Vice Intelligentsia plaid. Proident bespoke Tonx pug, irure four loko sustainable polaroid brunch typewriter. 
+					</div>
+					<div class="read-more">
+						<a href="#">Read More</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="large-4 medium-12 columns">
+			<div id="square-address">
+				<div id="square-header">
+					<p id="dates">November 10 - November 13</p>
+					<span>Monday 6:30PM - 6:30PM (EST)</span>
+					<span class="cost"> $99-$199</span>
+				</div>
+				<div id="square-body">
+					Silicon Flatirons Center – Wolf Law Building 
+					<br />
+					2450 Kittredge Loop Road
+				</div>
+				<div class="gmap">
+
+				</div>
+				<div id="square-footer">
+					<a href="#" class="green-button">
+						REGISTER NOW
+					</a>
+					<div class="sign-up">Sign up for the event alerts</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+{% endblock %}
